@@ -37,6 +37,7 @@ The command or function's output is put into a `$STDOUT` variable
 $ echo "$STDOUT"
 foo
 bar
+```
 
 You can also get the output by calling the `STDOUT` function
 
