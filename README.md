@@ -10,6 +10,8 @@ Download the [latest version](https://github.com/bx-sh/run.sh/archive/v0.2.0.tar
 $ source "run-command.sh"
 ```
 
+---
+
 #### `run`
 
 The `run` function returns the underlying command or function's exit or return code
