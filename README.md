@@ -8,6 +8,8 @@ Test Command Output.
 $ source "run-command.sh"
 ```
 
+#### `run`
+
 The `run` function returns the underlying command or function's exit or return code
 
 ```sh
@@ -17,6 +19,8 @@ $ echo $?
 0
 ```
 
+#### `$EXIT_CODE`
+
 The command or function's return code is put into an `$EXIT_CODE` variable
 
 ```sh
@@ -24,12 +28,16 @@ $ echo "$EXIT_CODE"
 0
 ```
 
+#### `EXIT_CODE`
+
 You can also get the return code by calling the `EXIT_CODE` function
 
 ```
 $ EXIT_CODE
 0
 ```
+
+#### `$STDOUT`
 
 The command or function's output is put into a `$STDOUT` variable
 
@@ -39,6 +47,8 @@ foo
 bar
 ```
 
+#### `STDOUT`
+
 You can also get the output by calling the `STDOUT` function
 
 ```sh
@@ -47,17 +57,23 @@ foo
 bar
 ```
 
+#### `$STDERR`
+
 The command or function's standard error is put into a `$STDERR` variable
 
 ```sh
 $ echo "$STDERR"
 ```
 
+#### `STDERR`
+
 You can also get the standard error by calling the `STDERR` function
 
 ```sh
 $ STDERR
 ```
+
+#### `$OUTPUT`
 
 The command or function's `STDOUT` and `STDERR` are both put into an `$OUTPUT` variable
 
@@ -66,6 +82,8 @@ $ echo "$OUTPUT
 foo
 bar
 ```
+
+#### `OUTPUT`
 
 You can also get the combined `STDOUT` and `STDERR` by calling the `OUTPUT` function
 
