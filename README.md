@@ -1,6 +1,6 @@
 # 🚀 `run $command`
 
-Test Command Output.
+Test Function or Command Output.
 
 ---
 
