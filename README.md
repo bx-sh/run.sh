@@ -4,6 +4,8 @@ Test Function or Command Output.
 
 ---
 
+Download the [latest version](https://github.com/bx-sh/run.sh/archive/v0.2.0.tar.gz)
+
 ```sh
 $ source "run-command.sh"
 ```
@@ -14,6 +16,15 @@ The `run` function returns the underlying command or function's exit or return c
 
 ```sh
 $ run ls
+
+$ echo $?
+0
+```
+
+The command does not run in a subshell. If you would like to run the command in a subshell:
+
+```sh
+$ run -- ls
 
 $ echo $?
 0
