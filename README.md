@@ -8,7 +8,7 @@ Test Command Output.
 $ source "run-command.sh"
 ```
 
-The `run` function returns the underlying command's exit or return code
+The `run` function returns the underlying command or function's exit or return code
 
 ```sh
 $ run ls
